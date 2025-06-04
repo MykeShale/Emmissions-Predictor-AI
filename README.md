@@ -39,14 +39,19 @@ python co2_emissions_prediction.py
 
 ## Project Structure
 ```
-.
-├── co2_emissions_prediction.py    # Main model implementation
-├── requirements.txt              # Project dependencies
-├── output/                       # Generated output files
-│   ├── co2_emissions_plot.png    # Actual vs Predicted plot
-│   ├── feature_importance_plot.png # Feature importance visualization
-│   └── co2_emissions_model.joblib # Saved model
-└── README.md                     # This file
+Emmissions Predictor AI/
+├── .git/
+├── src/
+│   ├── visualizations/
+│   │   └── generate_visualizations.py
+│   └── models/
+│       └── co2_emissions_prediction.py
+├── pitch_deck_assets/
+├── output/
+├── pitch_deck.md
+├── requirements.txt
+├── project_report.md
+└── README.md
 ```
 
 ## Model Performance
